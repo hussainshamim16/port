@@ -151,3 +151,54 @@ font-weight: 800;
       text-transform: capitalize;
      font-size: 1.9rem;
     }
+    /* section second finel */
+
+    section#third{
+        height: 70vh;
+        padding: 20px 20px;
+        background-color: var(--light);
+    }
+    /* section#third .text p{
+      padding: 0px 50px;
+      font-family: poppins;
+    } */
+    section#third h1{
+      padding: 0px 50px;
+      text-transform: capitalize;
+     font-size: 2.9rem;
+    }
+    section#third #boxes{
+/* border: 2px solid red; */
+width: 100%;
+height: 100%;
+background: var(--lightdark);
+justify-content: space-around;
+align-items: center;
+
+box-shadow: 7px 20px 10px 2px #0000005b;
+    }
+    section#third #boxes .box{
+/* border: 2px solid red; */
+padding: 0px 20px;
+border-radius: 20px;
+background-color: var(--light);
+width: 30%;
+height: 50%;
+cursor: pointer;
+transition-duration: 0.5s;
+text-align: center;
+/* background: var(--lightdark); */
+    }
+    section#third #boxes .box:hover{
+        background-color: var(--dark);
+        color: white;
+    }
+    section#third #boxes .box h1{
+      font-size: 1.6rem;
+      
+            }
+    section#third #boxes .box p{
+      font-size: 1.2rem;
+            }
+
+             /* section thid finel */
