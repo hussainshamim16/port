@@ -140,7 +140,9 @@ font-weight: 800;
     section#second{
         height: 70vh;
         padding: 20px 20px;
-        background-color: var(--light);
+        background-color: var(--dark);
+        color: white;
+        
     }
     section#second .text p{
       padding: 0px 50px;
@@ -156,7 +158,9 @@ font-weight: 800;
     section#third{
         height: 70vh;
         padding: 20px 20px;
-        background-color: var(--light);
+        background-color: var(--dark);
+        color: white;
+        margin-bottom: 30%;
     }
     /* section#third .text p{
       padding: 0px 50px;
@@ -181,7 +185,8 @@ box-shadow: 7px 20px 10px 2px #0000005b;
 /* border: 2px solid red; */
 padding: 0px 20px;
 border-radius: 20px;
-background-color: var(--light);
+background-color: var(--dark);
+color: white;
 width: 30%;
 height: 50%;
 cursor: pointer;
@@ -202,3 +207,85 @@ text-align: center;
             }
 
              /* section thid finel */
+
+             section#four{
+                height: 70vh;
+                padding: 2px 20px;
+                background-color: var(--dark);
+                color: white;
+                margin-bottom: 15%;
+            }
+             section#four h1{
+              font-size: 40px;
+
+              text-transform: capitalize;
+            }
+            section#four #images{
+                /* border: 2px solid red; */
+                width: 100%;
+                /* height: auto; */
+                /* background: var(--lightdark); */
+                justify-content: space-around;
+                align-items: center;
+                
+                /* box-shadow: 7px 20px 10px 2px #0000005b; */
+                    }
+                    section#four #images .imags{
+                        /* border: 1px solid red; */
+                        width: 40%;
+                        /* background-color: var(--extralight); */
+                  
+                    }
+                    section#four #images .imags img{
+                        width: 100%;
+                        
+                        border-radius: 20px;
+
+                        transition-duration: 0.4s;
+                    }
+                    section#four #images .imags img:hover{
+                        
+                        border-radius: 0px;
+                        opacity: 0.7;
+                    }
+                    section#four #images .box h1{
+                      font-size: 1.6rem;
+                      
+                            }
+                    section#four .more{
+                      /* font-size: 1.6rem; */
+                      text-align: center;
+                      /* border: 1px solid red; */
+                            }
+                    section#four .more h3 a{
+                     color: var(--dark);
+                     text-decoration: none;
+                     background-color: var(--extralight);
+                     padding: 5px 30px;
+                     border-radius: 20px;
+                            }
+
+                            /* complete four section */
+
+                    footer{
+                        text-align: center;
+                    }
+                    footer .find{
+                        background-color: var(--dark);
+                        color: white;
+                        padding: 10px 20px;
+                        margin-bottom: 30px;
+                    }
+                    footer #foot{
+                        background-color: var(--dark);
+                        color: white;
+                        padding: 10px 20px;
+                        
+                    }
+                    footer #foot a{
+                        
+                        color: white;
+                        
+                        
+                    }
+                
