@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+/* bar code */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Libre+Barcode+39+Extended+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=WindSong:wght@400;500&display=swap');
+/* owsom */
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Libre+Barcode+39+Extended+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&family=WindSong:wght@400;500&display=swap');
+/* pera */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bowlby+One+SC&family=Libre+Barcode+39+Extended+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&family=WindSong:wght@400;500&display=swap');
+/* extra bold */
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Bowlby+One+SC&family=Climate+Crisis&family=Libre+Barcode+39+Extended+Text&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tilt+Warp&family=WindSong:wght@400;500&display=swap');
+
+
+:root{
+    --extralight:#f4eeff;
+    --light: #dcd6f7;
+    --lightdark:#a6b1e1;
+    --dark:#424874;
+}
+body{
+    background-color: var(--extralight);
+    font-family: "Poppins", sans-serif;
+    /* font-family: "Bowlby One SC", sans-serif; */
+    /* font-family: "WindSong", cursive; */
+    /* barCode */
+    /* font-family: "Libre Barcode 39 Extended Text", system-ui; */
+    /* owsome */
+    /* font-family: "Tilt Warp", sans-serif;    */
+    /* pera */
+    font-family: "Belanosima", sans-serif;
+    /* bolder */
+    /* font-family: "Climate Crisis", sans-serif; */
+}
+
+#logo h1{
+    font-family: "Belanosima", sans-serif;
+}
+
+ul li{
+    font-family: "Tilt Warp", sans-serif; 
+}
+section#first h2{
+    font-family: "Belanosima", sans-serif;
+    text-transform: capitalize;
+}
