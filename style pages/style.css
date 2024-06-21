@@ -18,6 +18,16 @@
     --lightdark:#a6b1e1;
     --dark:#424874;
 }
+.flex{
+    display: flex;
+}
+.b{
+    border: 2px solid red;
+}
+section{
+    margin-bottom: 20%;
+    padding: 0px 10px;
+}
 body{
     background-color: var(--extralight);
     font-family: "Poppins", sans-serif;
@@ -28,7 +38,7 @@ body{
     /* owsome */
     /* font-family: "Tilt Warp", sans-serif;    */
     /* pera */
-    font-family: "Belanosima", sans-serif;
+    /* font-family: "Belanosima", sans-serif; */
     /* bolder */
     /* font-family: "Climate Crisis", sans-serif; */
 }
@@ -40,7 +50,104 @@ body{
 ul li{
     font-family: "Tilt Warp", sans-serif; 
 }
-section#first h2{
+header {
+    margin-bottom: 5%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+}
+header nav #logo{
+   /* border: 1px solid red; */
+   height: auto;
+}
+header nav #logo h1{
+    font-size: 1.5rem;
+}
+header nav #items{
+   /* border: 1px solid red; */
+   height: auto;
+   width: 60%;
+}
+header nav #items ul{
+  justify-content: space-around;
+  list-style-type: none;
+}
+header nav #items ul li{
+    list-style-type: none;
+}
+header nav #items ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black    ;
+}
+/*  header finel */
+
+section#first{
+    height: 70vh;
+    /* width: 100%; */
+
+    justify-content: space-around;
+    align-items: center;
+
+    
+    
+}
+section#first .text{
+/* background-color: #424874; */
+width: 60%;
+}
+section#first .images{
+/* background-color: #424874; */
+width: 30%;
+}
+section#first .images img{
+
+width: 80%;
+border-radius: 20px;
+opacity: 0.9;
+
+box-shadow: 15px 15px 0px 2px var(--dark);
+transition-duration: 0.4s;
+}
+section#first .images img:hover{
+    /* width: 70%; */
+    margin-left: -20px;
+    margin-top: -20px;
+    box-shadow: 40px 40px 0px 2px var(--dark);
+}
+
+section#first .text h2{
     font-family: "Belanosima", sans-serif;
     text-transform: capitalize;
-}
+    }
+section#first .text h1{
+font-size: 2.3rem;
+font-family: "Climate Crisis", sans-serif;
+font-weight: 100;
+    }
+section#first .text h3{
+font-size: 1.3rem;
+
+font-weight: 800;
+    }
+
+    /* section first finel */
+
+    section#second{
+        height: 70vh;
+        padding: 20px 20px;
+        background-color: var(--light);
+    }
+    section#second .text p{
+      padding: 0px 50px;
+      font-family: poppins;
+    }
+    section#second .text h1{
+      padding: 0px 50px;
+      text-transform: capitalize;
+     font-size: 1.9rem;
+    }
