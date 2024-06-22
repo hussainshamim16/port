@@ -487,3 +487,40 @@ footer #foot a {
 
 
 }
+
+/* contact */
+section#contact{
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+section#contact .text{
+    /* border: 2px solid red; */
+    width: 30%;
+    line-height: 2;
+}
+section#contact .farm{
+    /* border: 2px solid red; */
+    
+    width: 40%;
+    line-height: 2;
+    /* padding: 70px; */
+}
+section#contact .farm form{
+    /* border: 1px solid green; */
+    
+}
+section#contact .farm form textarea{
+    width: 90%;
+    padding: 15px 20px;
+    color : black;
+    border-radius: 20px;
+}
+section#contact .farm form input{
+   width: 90%;
+   padding: 15px 20px;
+   border-radius: 20px;
+   border: none;
+   margin-bottom: 20px;
+   color : black;
+}
