@@ -32,6 +32,21 @@
     border: 2px solid red;
 }
 
+#custom-cursor {
+
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.301);
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* Ensures the cursor does not interfere with element interactions */
+    transition: transform 0.1s ease;
+    
+    /* z-index: -1; */
+}
+/*  */
+
 section {
     margin-bottom: 20%;
     padding: 0px 10px;
@@ -164,7 +179,7 @@ section#first .social {
     flex-direction: column;
 }
 section#first .social i{
-   font-size: 20px;
+    font-size: 20px;
 }
 section#first .imag {
     width: 40%;
@@ -175,8 +190,12 @@ section#first .intro {
     width: 80%;
     /* border: 2px solid purple; */
 }
+section#first .intro .imag{
+    transition-duration: 0.4s;
 
+}
 section#first .circul {
+    transition-duration: 0.4s;
     background-color: #9b9b9b;
     width: 100%;
 
@@ -187,7 +206,29 @@ section#first .circul {
 }
 section#first .circul img{
     width: 100%;
-    border-radius: 80px;
+    border-radius: 100%;
+    transition-duration: 0.4s;
+    filter:drop-shadow( 2px 2px 2px rgb(255, 255, 255));
+    
+
+}
+section#first .intro .imag:hover{
+    
+    /* filter:drop-shadow( 20px 15px 2px rgb(0, 38, 255)); */
+margin-top: -20px;
+margin-left: -20px;
+}
+section#first .circul img:hover{
+    
+    /* filter:drop-shadow( 20px 15px 2px rgb(0, 38, 255)); */
+margin-top: -10px;
+margin-right: -90px;
+}
+section#first .circul:hover{
+    
+    /* filter:drop-shadow( 20px 15px 2px rgb(0, 38, 255)); */
+margin-top: -10px;
+margin-left:    40px;
 }
 
 section#first .scrollDown {
@@ -203,9 +244,12 @@ section#first .scrollDown {
 }
 
 section#first .scrollDown h1{
+    transform: rotate(90deg);
+}
+section#first .scrollDown h1 a{
+    text-decoration: none;
     letter-spacing: 6px;
     font-size: 1rem;
-    transform: rotate(90deg);
 }
 
 section#first .images img {
@@ -249,8 +293,12 @@ justify-content: space-around;
 
 }
 section#about .imag{
-    /* border:  1px solid red; */
     width: 40%;
+}
+section#about .imag img{
+    border-bottom:  5px solid gray;
+    border-radius: 100px;
+
 }
 section#about .imag .circul{
     background-color: #9b9b9b;
@@ -312,10 +360,12 @@ section#about .text .ranger .back .js{
 /* section first finel */
 
 section#second {
+    
     height: 70vh;
     padding: 20px 20px;
     background-color: var(--dark);
     color: white;
+    /* z-index: -910; */
 
 }
 
@@ -524,3 +574,4 @@ section#contact .farm form input{
    margin-bottom: 20px;
    color : black;
 }
+

@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+    
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hussain Shamim</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-</head>
+    </head>
 
-<body>
+    <body>
+    <div id="custom-cursor"></div>
     <header class="flex">
         <nav>
             <div id="logo">
@@ -23,9 +24,9 @@
             <div id="items">
                 <ul class="flex">
                     <li><a href="#Home">Home</a></li>
-                    <li><a href="#Home">About</a></li>
-                    <li><a href="#Home">Portfolio</a></li>
-                    <li><a href="#Home">contact</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
                     <!-- <li><a href="#Home">projects</a></li> -->
                     <!-- <li><a href="#Home">Home</a></li>
                     <li><a href="#Home">Home</a></li>
@@ -37,26 +38,27 @@
     <section id="first" class="flex" data-aos="fade-in">
 
         <div class="social">
-            <i class="fa-brands fa-github"></i> <br>
-            <i class="fa-solid fa-envelope"></i> <br>
-            <i class="fa-brands fa-github"></i>
+             <a href="#"><i class="fa-brands fa-github"></i></a></i> <br>
+             <a href="#"><i class="fa-solid fa-envelope"></i></a></i> <br>
+             <a href="#"><i class="fa-brands fa-github"></i></a></i>
         </div>
         <div class="intro flex">
             <div class="imag">
                 <div class="circul ">
-                    <img src="./images collection/down-removebg-preview.png" alt="myPhoto">
+                    <!-- <img src="./images collection/fornt.png" alt="myPhoto"> -->
+                    <img src="./images collection/rate.png" alt="myPhoto">
                 </div>
             </div>
-            <div class="text ">
-                <h2>Front End</h2>
-                <h1>WEb Developer</h1>
-                <h3>Muhammad Hussain Shamim</h3>
+            <div class="text content ">
+                <h2 class="animated-paragraph" id="animatedParagraph">Front End</h2>
+                <h1 class="animated-paragraph" id="animatedParagraph">WEb Developer</h1>
+                <h3 class="animated-paragraph" id="animatedParagraph">Muhammad Hussain Shamim</h3>
                 
             </div>
         </div>
         <div class="scrollDown">
             <h1>
-            scrolldown>>>
+            <a href="#second">scrolldown>>></a>
             </h1>
         </div>
         <!-- 
@@ -93,7 +95,7 @@
     <section id="about" class="flex" data-aos="fade-in">
         <div class="imag">
             <div class="circul">
-                <img src="./images collection/down-removebg-preview.png" alt="">
+                <img src="./images collection/side pos.png" alt="">
             </div>
 </div>
 <div class="text">
@@ -181,6 +183,7 @@
             &copy; Copyright 2024.Made by <a href="#">Hussain Shamim</a>
         </div>
     </footer>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./script.js"></script>
 </body>
