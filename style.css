@@ -575,3 +575,29 @@ section#contact .farm form input{
    color : black;
 }
 
+.content {
+    text-align: left;
+}
+
+.animated-paragraph{
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Animation class for letters */
+.animate-letter{
+    /* font-size: 40px; */
+    transition-duration: 0.5s;
+    
+    /* background-color: rgb(255, 255, 255); */
+    
+    /* padding: 5px; */
+    /* border-radius: 50px; */
+    transform: scale(1.2); /* Increase size */
+    color: red; /* Change text color */
+}
+
+.highlight {
+    color: red; /* Change text color to red */
+    transition: color 0.3s ease; /* Smooth transition */
+}
